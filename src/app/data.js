@@ -7,85 +7,72 @@ Websites:
 - https://skillicons.dev (Skill Icons to show skills)
 - https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
 
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
 */
 
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "AUTOMOTIVE ECOMMERCE WEBSITE",
+    description:
+      "It's a core car website for the European market, serving as a base package used in varieties of car websites. It facilitates for lease or sell, trade-in, and payments, transactions. I joined to build some features.",
+    demoLink: "https://assets.netdirector.auto/",
+    techs: [
+      "VUEJS",
+      "VUETIFY",
+      "VUEX",
+      "RESTFUL API",
+      "GRAPHQL",
+      "JEST",
+      "CYPRESS",
+    ],
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "ADMIN WEB CMS",
+    description:
+      "Build admin management system, user management, registration, login, account confirmation and activation, forgot password, reset password.",
+    demoLink: "https://github.com/nhiph",
+    techs: ["NEXTJS", "NESTJS", "MONGODB", "ANTD"],
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "STUDENT MANAGEMENT CMS",
+    description:
+      "Rebuild a available system by react and use hooks, which manages students, programs, courses, guidelines, reports, lecturers, grades of Computer Science Faculty.",
+    demoLink: "https://github.com/nhiph",
+    techs: ['REACTJS','REDUX', 'REDUX THUNK', 'REACT ROUTER', 'FORMIK', 'ANTD'],
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    name: "CHEMICAL EXERCISE MANAGEMENT",
+    description:
+      "A website to post exercises and solutions for high school students, which allows to post exercises by year, university entrance exams with detailed solutions.",
+    demoLink: "https://github.com/nhiph",
+    techs: ["VUEJS", "RESTFUL API", "TAILWIN"],
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "FINANICIAL SERVICES ECOMMERCE WEBSITE",
+    description:
+      "Financial services products, with consulting support from financial experts to help manage finances and personal investments more effectively.",
+    demoLink: "https://gogojungle.co.jp/",
+    techs: ["VUEJS", "VUEX", "RESTFUL API"],
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    name: "JAPANESE EBOOK",
+    description:
+      "Build an electronic book to teach Japanese to children, the content includes pictures, sounds, pronunciation, similar to Vietnamese textbooks.",
+    demoLink: "https://github.com/nhiph",
+    techs: ["LARAVEL"],
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "MOVIE SEAT RESERVATION",
+    description:
+      "Build a movie screening website for viewers to book movies and seats in advance.",
+    demoLink: "https://github.com/nhiph",
+    techs: ['REACTJS','REDUX', 'REACT SAGA', 'REACT ROUTER', 'FORMIK', 'ANTD'],
   },
 ];
 
@@ -96,20 +83,20 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/nhiph",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/phung-nhi-8862b71a2/",
     icon: "linkedin",
     newTab: true,
   },
   {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
+    label: "Facebook",
+    link: "https://www.facebook.com/nhi.phung.75",
+    icon: "facebook",
     newTab: true,
   },
   {
@@ -119,5 +106,3 @@ export const BtnList = [
     newTab: true,
   },
 ];
-
-
