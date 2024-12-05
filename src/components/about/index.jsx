@@ -23,7 +23,7 @@ const AboutDetails = () => {
             to deliver the best products for customers. My long term career goal
             is to become a dev team manager based on experience and
             understanding from the role of a developer. Contribute knowledge and
-            skills to the company's growth and bring value to users, as well as
+            skills to the company growth and bring value to users, as well as
             to gain relevant experiences on tech skills and soft skills for
             myself further in the career. Join me as I continue to explore new
             spells and technologies to shape the future of the web.
