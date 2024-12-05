@@ -7,8 +7,8 @@ import Sound from "@/components/Sound";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata = {
-  title: "Create Next App",
-  description: "My portfolo",
+  title: "Nhi Phung Portfolio",
+  description: "Nhi Phung Portfolio",
 };
 
 export default function RootLayout({ children }) {
